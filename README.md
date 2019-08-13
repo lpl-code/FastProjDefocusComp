@@ -7,6 +7,6 @@ P.S. The original image can be replaced by modifying the variable value 'image_n
   
 P.S. The original image can be replaced by modifying the variable value 'image_no' in the 6th line of 'real_scene_demo.m', the allowable value of 'image_no' is from 1 to 7.
 
-3. Before running the demo file 'simulation_demo.m' or 'real_scene_demo.m', make sure the path to the current folder be set as '.\FastProjBlurComp'.
+3. Before running the demo file 'simulation_demo.m' or 'real_scene_demo.m', make sure the path to the current folder be set to '.\FastProjBlurComp'.
 
 4. All of the codes have been successfully implemented in MATLAB R2018b (9.5.0.944444). Feel free to contact us if you have any further quesitons.

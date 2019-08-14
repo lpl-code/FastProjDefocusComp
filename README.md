@@ -8,51 +8,18 @@
 ## 3. Before running the demo file 'simulation_demo.m' or 'real_scene_demo.m', make sure the path to the current folder be set to '*.\FastProjBlurComp*'.
 
 ## 4.  Explaination of some important code files：
-
+### 4.1 Codes for *simulation*
+|Name|Function|
+|optimization_method|Use for generating the compensation image in simulation by using *previous* optimization method.|
+|proposed_method|Use for generating the compensation image in simulation by using the *proposed* method.|
+### 4.2 Codes for *experiments in real scene*
 |Name|Function|
 |----|--------|
 |pist_main.m|Use for solving the *point-to-point conversion* from the camera to the projector's coordinate frame, as discussed in *section Ⅱ-D*.|
 |kernelEstimation.m|Use for estimating the *defocus parameters* (kernel *α* *f* and *Γ*), as discussed in *section Ⅱ-D*.|
 |compensationImage.m|Use for generating the *compensation image* in real scence, as discussed in *section Ⅱ-B*. |
-|optimization_method|Use for generating the compensation image in simulation by using *previous* optimization method.|
-|proposed_method|Use for generating the compensation image in simulation by using the *proposed* method.|
-
 
 ## 5. All of the codes have been successfully implemented in MATLAB R2018b (9.5.0.944444). Feel free to contact us if you have any further quesitons.
 
 
-<table>
-   <tr>
-      <td>Application</td>
-      <td>Name</td>
-      <td>Function</td>
-   </tr>
-   <tr>
-      <td>For real scene</td>
-      <td>1</td>
-      <td>2</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>3</td>
-      <td>4</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>5</td>
-      <td>6</td>
-   </tr>
-   <tr>
-      <td>For simulation</td>
-      <td>7</td>
-      <td>8</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>9</td>
-      <td>10</td>
-   </tr>
-   <tr>
-      <td></td>
-   </tr>
-</table>
+

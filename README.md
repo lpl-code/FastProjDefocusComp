@@ -8,7 +8,7 @@
 ## 3. Before running the demo file 'simulation_demo.m' or 'real_scene_demo.m', make sure the path to the current folder be set to '*.\FastProjBlurComp*'.
 
 ## 4.  Explaination of some important code files：
-  ### 4.1 Codes for *simulation*
+### 4.1 Codes for *simulation*
 
 |Name|Function|
 |----|--------|

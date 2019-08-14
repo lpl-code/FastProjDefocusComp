@@ -7,12 +7,12 @@
 
 ## 3. Before running the demo file 'simulation_demo.m' or 'real_scene_demo.m', make sure the path to the current folder be set to '.\FastProjBlurComp'.
 
-## 4. All of the codes have been successfully implemented in MATLAB R2018b (9.5.0.944444). Feel free to contact us if you have any further quesitons.
+## 4.  Explaination of some important code files：
+#### 4.1 pist_main.m
+###### Use for solving the point-to-point conversion from the camera to the projector's coordinate frame, which is discussed in section Ⅱ-D.
+#### 4.2 kernelEstimation.m
+###### Use for estimating the defocus parameters, which is discussed in section Ⅱ-D.
+#### 4.3 compensationImage.m
+###### Use for generating the compensation image, which is discussed in section Ⅱ-B. 
 
-## 5.  Explaination of some important code files：
-#### 5.1 pist_main.m
-
-    No	       File name		                Function
-    1	   |     pist_main.m		    |          Use for solving the point-to-point conversion from the camera to the projector's coordinate frame, which is discussed in **section Ⅱ-D**.
-    
-    2	   |     kernelEstimation.m	|        Use for estimating the defocus parameters, 
+## 5. All of the codes have been successfully implemented in MATLAB R2018b (9.5.0.944444). Feel free to contact us if you have any further quesitons.

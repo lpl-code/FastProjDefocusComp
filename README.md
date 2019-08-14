@@ -3,7 +3,7 @@
 > **Note:**  The original image can be replaced by modifying the variable value 'image_no' in the 7th line of 'simulaiton_demo.m', the allowable value of 'image_no' is from 1 to 15.
 
 ## 2. To realize the experimental results in real scenes (shown in section Ⅲ of the manuscript), please run 'real_scene_demo.m'.
-#### P.S. The original image can be replaced by modifying the variable value 'image_no' in the 6th line of 'real_scene_demo.m', the allowable value of 'image_no' is from 1 to 7.
+> **Note:** The original image can be replaced by modifying the variable value 'image_no' in the 6th line of 'real_scene_demo.m', the allowable value of 'image_no' is from 1 to 7.
 
 ## 3. Before running the demo file 'simulation_demo.m' or 'real_scene_demo.m', make sure the path to the current folder be set to '.\FastProjBlurComp'.
 

@@ -15,4 +15,8 @@
 #### 4.3 compensationImage.m
 ###### Use for generating the compensation image, which is discussed in section Ⅱ-B. 
 
+| Name | Function |
+| pist_main.m | Use for solving the point-to-point conversion from the camera to the projector's coordinate frame, which is discussed in section Ⅱ-D.|
+
+
 ## 5. All of the codes have been successfully implemented in MATLAB R2018b (9.5.0.944444). Feel free to contact us if you have any further quesitons.

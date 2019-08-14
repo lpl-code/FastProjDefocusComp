@@ -9,10 +9,14 @@
 
 ## 4.  Explaination of some important code files：
 ### 4.1 Codes for *simulation*
+
 |Name|Function|
+|----|--------|
 |optimization_method|Use for generating the compensation image in simulation by using *previous* optimization method.|
 |proposed_method|Use for generating the compensation image in simulation by using the *proposed* method.|
+
 ### 4.2 Codes for *experiments in real scene*
+
 |Name|Function|
 |----|--------|
 |pist_main.m|Use for solving the *point-to-point conversion* from the camera to the projector's coordinate frame, as discussed in *section Ⅱ-D*.|

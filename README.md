@@ -12,8 +12,8 @@
 
 |Name|Function|
 |----|--------|
-|optimization_method|Use for generating the compensation image by using *previous* optimization method.|
-|proposed_method|Use for generating the compensation image by using the *proposed* method.|
+|optimization_method.m|Use for generating the compensation image by using *previous* optimization method.|
+|proposed_method.m|Use for generating the compensation image by using the *proposed* method.|
 
 ### 4.2 Codes for *experiments in real scene*
 

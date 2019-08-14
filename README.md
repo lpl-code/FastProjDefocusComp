@@ -11,6 +11,7 @@
 
 |Name|Function|
 |----|--------|
+|For real scene|
 |pist_main.m|Use for solving the *point-to-point conversion* from the camera to the projector's coordinate frame, as discussed in *section Ⅱ-D*.|
 |kernelEstimation.m|Use for estimating the *defocus parameters* (kernel *α* *f* and *Γ*), as discussed in *section Ⅱ-D*.|
 |compensationImage.m|Use for generating the *compensation image* in real scence, as discussed in *section Ⅱ-B*. |

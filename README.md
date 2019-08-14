@@ -12,20 +12,7 @@
 | Name | Function |
 |------|----------|
 | pist_main.m | Use for solving the point-to-point conversion from the camera to the projector's coordinate frame, which is discussed in section Ⅱ-D.|
-|kernelEstimation.m|Use for estimating the defocus parameters(kernel $\alpha$), which is discussed in section Ⅱ-D.|
+|kernelEstimation.m|Use for estimating the defocus parameters, which is discussed in section Ⅱ-D.|
 |compensationImage.m|Use for generating the compensation image, which is discussed in section Ⅱ-B. |
 
 ## 5. All of the codes have been successfully implemented in MATLAB R2018b (9.5.0.944444). Feel free to contact us if you have any further quesitons.
-
-
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-

@@ -14,7 +14,8 @@
 
 |Name|Function|
 |----|--------|
-|optimization_method.m|Use for generating the compensation image by using *previous* optimization method. **Note:** Previous method consumes prohibitive time that generally more than 10 minutes.|
+|optimization_method.m|Use for generating the compensation image by using *previous* optimization method. 
+**Note:** Previous method consumes prohibitive time that generally more than 10 minutes.|
 |proposed_method.m|Use for generating the compensation image by using the *proposed* method.|
 
 ### 4.2 Codes for *experiments in real scene*

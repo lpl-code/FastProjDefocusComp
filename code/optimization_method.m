@@ -25,7 +25,7 @@ y_filted_syms = sym(zeros(window_h, window_w));
 k = 1;
 for i=1:window_h
 	for j=1:window_w
-            y_filted_syms(i, j) = sum(sum(gau.*x_syms(i:(i+2*(kernel_radius-1)), j:(j+2*(kernel_radius-1)))));%【对于不同的通道，需要修改】
+            y_filted_syms(i, j) = sum(sum(gau.*x_syms(i:(i+2*(kernel_radius-1)), j:(j+2*(kernel_radius-1)))));
             k = k + 1;
             if mod(k, 1000)==1
                 k;

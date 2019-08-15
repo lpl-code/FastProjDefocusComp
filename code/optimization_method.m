@@ -134,5 +134,5 @@ for ii=1:sub_num_h
     end
 end
 fprintf('Done!');
-fprintf(['Time consumption: ', num2str(time_consume_sd), '\n']);
+fprintf(['Time consumption of previous optimization method: ', num2str(time_consume_sd), '\n']);
 end

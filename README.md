@@ -1,6 +1,6 @@
 # FastProjDefocusComp
-## 1. To realize the *simulation results* (shown in *section Ⅱ-C* of the manuscript), please run 'simulation_demo.m'.
-> **Note:**  The original image can be replaced by modifying the variable value 'image_no' in the 7th line of 'simulaiton_demo.m', the allowable value of 'image_no' is from 1 to 15.
+## 1. To reproduce the "Efficiency Evaluation" (shown in "section Ⅳ-A" of the manuscript), please run 'simulation_demo.m'.
+> **Note:**  The original image can be replaced by modifying the variable value 'image_no' in the 7th line of 'computeCompensationImage_demo.m', the allowable value of 'image_no' is from 1 to 15.
 
 > **Note:**  "image_no = 1, 2, 3" stands for "Lena", "Baby" and "House" respectively, as shown in Table I.
 
@@ -10,22 +10,24 @@
 ## 3. Before running the demo file 'simulation_demo.m' or 'real_scene_demo.m', make sure the path to the current folder be set to '*.\FastProjBlurComp*'.
 
 ## 4.  Explaination of some important code files：
-### 4.1 Codes for *simulation*
+### 4.1 Codes for "Efficiency Evaluation"
 
 |Name|Function|
 |----|--------|
-|optimization_method.m|Use for generating the compensation image by using *previous* optimization method. <br> **Note:** Previous method consumes prohibitive time that generally **more than 10 minutes**.|
-|proposed_method.m|Use for generating the compensation image by using the *proposed* method.|
+|optimization_method.m|Use for generating the compensation image by using "Previous Iterative Optimization Method". <br> **Note:** Previous method consumes prohibitive time that generally **more than 10 minutes**.|
+|proposed_method.m|Use for generating the compensation image by using the "proposed method".|
 
 ### 4.2 Codes for *experiments in real scene*
 
 |Name|Function|
 |----|--------|
-|pist_main.m|Use for solving the *point-to-point conversion* from the camera to the projector's coordinate frame, as discussed in *section Ⅱ-D*.|
-|kernelEstimation.m|Use for estimating the *defocus parameters* (kernel *α* *f* and *Γ*), as discussed in *section Ⅱ-D*.|
-|compensationImage.m|Use for generating the *compensation image* in real scence, as discussed in *section Ⅱ-B*. |
+|pist_main.m|Use for solving the "Transfer" from the camera to the projector's coordinate frame, as discussed in "section Ⅲ-B".|
+|kernelEstimation.m|Use for estimating the "defocus kernel (PSF)" (kernel *αf* and Γ), as discussed in "section Ⅲ-A".|
+|compensationImage.m|Use for generating the *compensation image* in real scence by using the proposed method, as discussed in *section Ⅱ-B*. |
 
-## 5. All of the codes have been successfully implemented in MATLAB R2018b. Feel free to contact us if you have any further quesitons.
+## 5. 
+
+## 6. All of the codes have been successfully implemented in MATLAB R2018b. Feel free to contact us if you have any further quesitons.
 
 
 

@@ -8,6 +8,7 @@ window_h_total = 150; window_w_total = 150;
 start_i_total = 485; start_j_total = 335;
 window_h = 50; window_w = 50;
 sub_num_h = window_h_total/window_h;    sub_num_w = window_w_total/window_w;
+fprintf('Implementation of Previous Iterative Optimization Method. Total computation time may exceed 10 minutes!');
 fprintf('Step 1/4, please wait...\n');
 x_syms = sym(zeros(window_h+2*(kernel_radius-1), window_w+2*(kernel_radius-1)));
 k = 1;

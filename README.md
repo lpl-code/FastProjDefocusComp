@@ -15,7 +15,7 @@
 |Name|Function|
 |----|--------|
 |optimization_method.m| Generating the compensation image by using "Previous Iterative Optimization Method". <br> **Note:** Previous method consumes prohibitive time that generally **more than 10 minutes**.|
-|proposed_method.m| Generating the compensation image by using the "proposed method".|
+|proposed_method.m| Generating the compensation image by using the "Proposed Edge intensification-based Algorithm", as discussed in section Ⅱ-B.|
 
 ### 4.2 Codes for "Experiments in Real Scene"
 
@@ -23,7 +23,7 @@
 |----|--------|
 |pist_main.m| Solving the "Transfer" from the camera to the projector's coordinate frame, as discussed in "section Ⅲ-B".|
 |kernelEstimation.m| Estimating the "defocus kernel (PSF)" (kernel *αf* and Γ), as discussed in "section Ⅲ-A".|
-|compensationImage.m| Generating the "compensation image" in real scence by using the proposed method, as discussed in "section Ⅳ-B". |
+|compensationImage.m| Generating the "compensation image" in real scence by using the proposed method. |
 
 ## 5.  Explaination of important subfolders used for kernel estimation in "data" folder:
 

@@ -26,7 +26,7 @@
 |compensationImage.m| Generating the "compensation image" in real scence by using the proposed method, as discussed in "section Ⅳ-B". |
 
 ## 5.  Explaination of important subfolders used for kernel estimation in "data" folder:
-### 5.1 
+
 |Name|Function|
 |----|--------|
 |subfolder "DOT"| Captured images of the "Dot patterns", as discussed in "section Ⅲ-A" and "Figure 5"|

@@ -9,23 +9,29 @@
 
 ## 3. Before running the demo file 'simulation_demo.m' or 'real_scene_demo.m', make sure the path to the current folder be set to '*.\FastProjBlurComp*'.
 
-## 4.  Explaination of some important code files：
+## 4.  Explaination of important code files:
 ### 4.1 Codes for "Efficiency Evaluation"
 
 |Name|Function|
 |----|--------|
-|optimization_method.m|Use for generating the compensation image by using "Previous Iterative Optimization Method". <br> **Note:** Previous method consumes prohibitive time that generally **more than 10 minutes**.|
-|proposed_method.m|Use for generating the compensation image by using the "proposed method".|
+|optimization_method.m| Generating the compensation image by using "Previous Iterative Optimization Method". <br> **Note:** Previous method consumes prohibitive time that generally **more than 10 minutes**.|
+|proposed_method.m| Generating the compensation image by using the "proposed method".|
 
-### 4.2 Codes for *experiments in real scene*
+### 4.2 Codes for "Experiments in Real Scene"
 
 |Name|Function|
 |----|--------|
-|pist_main.m|Use for solving the "Transfer" from the camera to the projector's coordinate frame, as discussed in "section Ⅲ-B".|
-|kernelEstimation.m|Use for estimating the "defocus kernel (PSF)" (kernel *αf* and Γ), as discussed in "section Ⅲ-A".|
-|compensationImage.m|Use for generating the *compensation image* in real scence by using the proposed method, as discussed in *section Ⅱ-B*. |
+|pist_main.m| Solving the "Transfer" from the camera to the projector's coordinate frame, as discussed in "section Ⅲ-B".|
+|kernelEstimation.m| Estimating the "defocus kernel (PSF)" (kernel *αf* and Γ), as discussed in "section Ⅲ-A".|
+|compensationImage.m| Generating the "compensation image" in real scence by using the proposed method, as discussed in "section Ⅳ-B". |
 
-## 5. 
+## 5.  Explaination of important subfolders used for kernel estimation in "data" folder:
+### 5.1 
+|Name|Function|
+|----|--------|
+|subfolder "DOT"| Captured images of the "Dot patterns", as discussed in "section Ⅲ-A" and "Figure 5"|
+|subfolder "RE1"| Caputred images of the "Horizontal sinusoidal projections", as discussed in "section Ⅲ-B" and "Figure 5"|
+|subfolder "RE6"| Caputred images of the "Vertical sinusoidal projections", as discussed in "section Ⅲ-B" and "Figure 5"|
 
 ## 6. All of the codes have been successfully implemented in MATLAB R2018b. Feel free to contact us if you have any further quesitons.
 

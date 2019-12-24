@@ -81,7 +81,13 @@ subplot(3,2,3); imshow(uint8(result_opt_display)); xlabel({'Compensation image';
 subplot(3,2,4); imshow(uint8(result_filted)); xlabel({'Blurred compensation image'; '(optimization method)'});
 subplot(3,2,5); imshow(uint8(comp)); xlabel({'Compensation image'; '(proposed)'});
 subplot(3,2,6); imshow(uint8(comp_filted)); xlabel({'Blurred Compensation image'; '(proposed)'});
-%% SSIM evaluation
+%% Efficiency evaluation
+clc
+fprintf('--------------------Efficiency (Time)---------------------\n');
+fprintf('The Computation Time (in seconds) of previous_optimization is %0.4f.\n', time_consume_sd);
+fprintf('The Computation Time (in seconds) of proposed is %0.4f.\n',our_time);
+fprintf('----------------------------------------------------------\n');
+%% SSIM metric
 ref = double(target);
 A_before = double(original_filted);
 A_after = comp_filted;
@@ -91,15 +97,28 @@ A_sd = result_filted;
 [ssimval_2, ssimmap_2] = ssim(A_after,ref);
 [ssimval_3, ssimmap_3] = ssim(A_sd,ref);
 
-clc
-fprintf('--------------------------------------------\n');
-fprintf('The SSIM of original defocus is %0.4f.\n',ssimval_1);
-fprintf('The SSIM of proposed is %0.4f.\n',ssimval_2);
+fprintf('--------------------SSIM--------------------\n');
+fprintf('The SSIM of blurred original image is %0.4f.\n',ssimval_1);
 fprintf('The SSIM of previous_optimization is %0.4f.\n',ssimval_3);
+fprintf('The SSIM of proposed method is %0.4f.\n',ssimval_2);
 fprintf('--------------------------------------------\n');
-
-%% Efficiency evaluation
-fprintf('----------------------------------------------------------\n');
-fprintf('The Time_Consumption of proposed is %0.4f.\n',our_time);
-fprintf('The Time_Consumption of previous_optimization is %0.4f.\n', time_consume_sd);
-fprintf('----------------------------------------------------------\n');
+%% PSNR metric
+[psnrval_1, snr_1] = psnr(A_before,ref, min(max(max(max(A_before))), max(max(max(ref)))) );
+[psnrval_2, snr_2] = psnr(A_after,ref, min(max(max(max(A_before))), max(max(max(ref)))));
+[psnrval_3, snr_3] = psnr(A_sd,ref, min(max(max(max(A_before))), max(max(max(ref)))));
+  
+fprintf('--------------------PSNR--------------------\n');
+fprintf('The PSNR of blurred original image is %0.4f.\n',psnrval_1);
+fprintf('The PSNR of previous_optimization is %0.4f.\n',psnrval_3);
+fprintf('The PSNR of proposed method is %0.4f.\n',psnrval_2);
+fprintf('--------------------------------------------\n');
+%% RMSE metric
+rmseval_1 = sqrt(immse(A_before,ref));
+rmseval_2 = sqrt(immse(A_after,ref));
+rmseval_3 = sqrt(immse(A_sd,ref));
+ 
+fprintf('--------------------RMSE--------------------\n');
+fprintf('The RMSE of blurred original image is %0.4f.\n',rmseval_1);
+fprintf('The RMSE of previous_optimization is %0.4f.\n',rmseval_3);
+fprintf('The RMSE of proposed method is %0.4f.\n',rmseval_2);
+fprintf('--------------------------------------------\n');

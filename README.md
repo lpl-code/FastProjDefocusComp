@@ -25,7 +25,7 @@
 |kernelEstimation.m|Use for estimating the *defocus parameters* (kernel *α* *f* and *Γ*), as discussed in *section Ⅱ-D*.|
 |compensationImage.m|Use for generating the *compensation image* in real scence, as discussed in *section Ⅱ-B*. |
 
-## 5. All of the codes have been successfully implemented in MATLAB R2018b (9.5.0.944444). Feel free to contact us if you have any further quesitons.
+## 5. All of the codes have been successfully implemented in MATLAB R2018b. Feel free to contact us if you have any further quesitons.
 
 
 

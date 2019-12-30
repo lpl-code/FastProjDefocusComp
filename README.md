@@ -6,6 +6,7 @@
 
 ## 2. To reproduce an example of the proposed method used "in Real Scenes with a Tilted Surface" (shown in "Section Ⅳ-B" of the manuscript), please run "real_scene_demo.m".
 > **Note:** "real_scene_demo.m" performs following actions in order, 1) solving the "Transfer" from the camera to the projector's coordinate frame, 2) estimating kernel *αf* and Γ, and 3) generating the compensation image.
+
 > **Note:** The original image can be replaced by modifying the variable value "image_no" in the 6th line of "real_scene_demo.m", the allowable value of "image_no" is from 1 to 7.
 
 ## 3. Before running the demo file "computeCompensationImage_demo.m" or "real_scene_demo.m", make sure the path to the current folder be set to ".\FastProjBlurComp-master".

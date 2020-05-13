@@ -1,4 +1,6 @@
 # FastProjDefocusComp
+## 0. Before running the demo file "computeCompensationImage_demo.m", "real_scene_demo.m", "binary-decoding-evaluation.m", "metrics_for_vgroove.m", "metrics_for_textured.m", and "noise_level_est.m", make sure the path to the current folder be set to ".\FastProjBlurComp-master".
+
 ## 1. To reproduce the "Efficiency Evaluation" (shown in "Section Ⅳ-A" of the manuscript), please run "computeCompensationImage_demo.m".
 > **Note:**  The original image can be replaced by modifying the variable value "image_no" in the 7th line of "computeCompensationImage_demo.m", the allowable value of 'image_no' is from 1 to 15.
 
@@ -19,17 +21,15 @@
 
 > **Note:** [26] W. Zhao, Q. Liu, Y. Lv, and B. Qin, "Texture variation adaptive image denoising with nonlocal PCA," IEEE Transactions on Image Processing. 
 
-## 6. Before running the demo file "computeCompensationImage_demo.m" or "real_scene_demo.m", make sure the path to the current folder be set to ".\FastProjBlurComp-master".
-
-## 7.  Explaination of important code files:
-### 7.1 Codes for "Efficiency Evaluation"
+## 6.  Explaination of important code files:
+### 6.1 Codes for "Efficiency Evaluation"
 
 |Name|Function|
 |----|--------|
 |optimization_method.m| Generating the compensation image by using "Previous Iterative Optimization Method". <br> **Note:** Previous method consumes prohibitive time that generally **more than 10 minutes**.|
 |proposed_method.m| Generating the compensation image by using the proposed "Edge Intensification-based Algorithm", as discussed in Section Ⅱ-B.|
 
-### 7.2 Codes for "Experiments in Real Scene"
+### 6.2 Codes for "Experiments in Real Scene"
 
 |Name|Function|
 |----|--------|
@@ -37,19 +37,19 @@
 |kernelEstimation.m| Estimating the "Defocus Kernel (PSF)" (kernel *αf* and Γ), as discussed in "Section Ⅲ-A".|
 |compensationImage.m| Generating the "Compensation Image" in real scence by using the proposed using the proposed "Edge Intensification-based Algorithm".|
 
-### 7.3 Codes for "Binary-decoding based evaluation"
+### 6.3 Codes for "Binary-decoding based evaluation"
 
 |Name|Function|
 |----|--------|
 |decode_conGraycode_version2.m| Decoding from the captured binary-encoded images, which is generally used in the context of structured-light 3D measurement, as discussed in "Section Ⅳ-C".|
 
-### 7.4 Codes for "Estimation of the level of camera errors"
+### 6.4 Codes for "Estimation of the level of camera errors"
 
 |Name|Function|
 |----|--------|
 |noise_evaluation_acva.m| Estimating the camera errors based on Poisson-Gaussian noise model, by using the code provided in [26].|
 
-## 8.  Explaination of important subfolders used for kernel estimation in "data" folder:
+## 7.  Explaination of important subfolders used for kernel estimation in "data" folder:
 
 |Name|Function|
 |----|--------|
@@ -60,7 +60,7 @@
 |folder "textured_lite"| Captured images from the complex surface, textured surface, as discussed in "Section Ⅳ-B" and "Figure 12"|
 |folder "binary-30-lite"| Captured images of the "gray-code binary-encoded patterns", as discussed in "Section Ⅳ-C" and "Figure 13"|
 
-## 9. All of the codes have been successfully implemented in MATLAB R2018b. Feel free to contact us if you have any further quesitons.
+## 8. All of the codes have been successfully implemented in MATLAB R2018b. Feel free to contact us if you have any further quesitons.
 
 
 

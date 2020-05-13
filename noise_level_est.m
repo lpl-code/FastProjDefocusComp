@@ -6,7 +6,7 @@ addpath('code/');
 %% load captured raw images
 add_str = ['.\binary-30-lite\CAPTURED\normal-projection\'];
 fileFolder=fullfile(add_str);
-dirOutput=dir(fullfile(fileFolder,'*'));%如果存在不同类型的文件，用‘*’读取所有，如果读取特定类型文件，'.'加上文件类型，例如用‘.jpg’
+dirOutput=dir(fullfile(fileFolder,'*'));
 fileNames={dirOutput.name}';
 k = 1;
 for i = 1:length(fileNames)

@@ -14,7 +14,8 @@
 ## 4. To reproduce the estimation results of the camera error level of the raw captured images, as listed in TABLE Ⅵ, please run "noise_level_est.m".
 
 > **Note:** We use the code provided by Wenzhao Zhao, which is described in the following article:
-[26] W. Zhao, Q. Liu, Y. Lv, and B. Qin, "Texture variation adaptive image denoising with nonlocal PCA," IEEE Transactions on Image Processing. 
+
+> **Note:** [26] W. Zhao, Q. Liu, Y. Lv, and B. Qin, "Texture variation adaptive image denoising with nonlocal PCA," IEEE Transactions on Image Processing. 
 
 ## 5. Before running the demo file "computeCompensationImage_demo.m" or "real_scene_demo.m", make sure the path to the current folder be set to ".\FastProjBlurComp-master".
 
@@ -53,6 +54,7 @@
 |subfolder "DOT"| Captured images of the "Dot Patterns", as discussed in "Section Ⅲ-A" and "Figure 5"|
 |subfolder "RE1"| Caputred images of the "Horizontal Sinusoidal Projections", as discussed in "Section Ⅲ-B" and "Figure 5"|
 |subfolder "RE6"| Caputred images of the "Vertical Sinusoidal Projections", as discussed in "Section Ⅲ-B" and "Figure 5"|
+|folder "binary-30-lite"| Captured images of the "gray-code binary-encoded patterns", as discussed in "Section Ⅳ-C" and "Figure 13"|
 
 ## 8. All of the codes have been successfully implemented in MATLAB R2018b. Feel free to contact us if you have any further quesitons.
 

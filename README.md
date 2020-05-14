@@ -19,7 +19,7 @@
 
 > **Note:** We use the code provided by Wenzhao Zhao, which is described in the following article:
 
-[26] W. Zhao, Q. Liu, Y. Lv, and B. Qin, "Texture variation adaptive image denoising with nonlocal PCA," IEEE Transactions on Image Processing. 
+> [26] W. Zhao, Q. Liu, Y. Lv, and B. Qin, "Texture variation adaptive image denoising with nonlocal PCA," IEEE Transactions on Image Processing. 
 
 ## 6.  Explaination of important code files:
 ### 6.1 Codes for "Efficiency Evaluation"

@@ -1,5 +1,5 @@
 # FastProjDefocusComp
-## 0. Before running the demo file "computeCompensationImage_demo.m", "real_scene_demo.m", "binary-decoding-evaluation.m", "metrics_for_vgroove.m", "metrics_for_textured.m", and "noise_level_est.m", make sure the path to the current folder be set to ".\FastProjBlurComp-master".
+## 0. Before running the demo file "computeCompensationImage_demo.m", "real_scene_demo.m", "binary_decoding_evaluation.m", "metrics_for_vgroove.m", "metrics_for_textured.m", and "noise_level_est.m", make sure the path to the current folder be set to ".\FastProjBlurComp-master".
 
 ## 1. To reproduce the "Efficiency Evaluation" (shown in "Section Ⅳ-A" of the manuscript), please run "computeCompensationImage_demo.m".
 > **Note:**  The original image can be replaced by modifying the variable value "image_no" in the 7th line of "computeCompensationImage_demo.m", the allowable value of 'image_no' is from 1 to 15.

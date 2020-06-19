@@ -1,5 +1,5 @@
 # FastProjDefocusComp
-The Early Access version of this paper has been available on IEEE Transactions on Industrial Informatics. The paper can be downloaded here. {% pdf /resources/ComputerNetwork/01.pdf %}[pdf](https://github.com/lpl-code/FastProjDefocusComp/raw/master/manuscript-EarlyAccess.pdf)
+The Early Access version of this paper has been available on IEEE Transactions on Industrial Informatics. The paper can be downloaded here. [download here](https://github.com/lpl-code/FastProjDefocusComp/raw/master/manuscript-EarlyAccess.pdf)
 
 ## 0. Before running the demo file "computeCompensationImage_demo.m", "real_scene_demo.m", "binary_decoding_evaluation.m", "metrics_for_vgroove.m", "metrics_for_textured.m", and "noise_level_est.m", make sure the path to the current folder be set to ".\FastProjBlurComp-master".
 

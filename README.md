@@ -1,4 +1,6 @@
 # FastProjDefocusComp
+The Early Access version of this paper has been available on IEEE Transactions on Industrial Informatics. The paper can be downloaded here. {% pdf /resources/ComputerNetwork/01.pdf %}
+
 ## 0. Before running the demo file "computeCompensationImage_demo.m", "real_scene_demo.m", "binary_decoding_evaluation.m", "metrics_for_vgroove.m", "metrics_for_textured.m", and "noise_level_est.m", make sure the path to the current folder be set to ".\FastProjBlurComp-master".
 
 ## 1. To reproduce the "Efficiency Evaluation" (shown in "Section Ⅳ-A" of the manuscript), please run "computeCompensationImage_demo.m".
